@@ -54,6 +54,7 @@ const currentIndex = ref(0);
 <style scoped lang="scss">
 .card_slider__w {
   height: 100%;
+  max-height: 540px;
 }
 .card__slider {
   width: 100%;
@@ -101,6 +102,10 @@ const currentIndex = ref(0);
     .card__bottom {
       transform: translateY(0);
     }
+    .card__link__btn {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 }
 
@@ -108,6 +113,9 @@ const currentIndex = ref(0);
   position: absolute;
   top: 0;
   right: 0;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(100%);
+  opacity: 0;
 }
 
 .card__bottom {

@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import Work from "../card/Work.vue";
 
-const items = [1, 2, 3, 4, 5, 6];
+const items = [1, 2, 3];
 </script>
 
 <style scoped lang="scss">
