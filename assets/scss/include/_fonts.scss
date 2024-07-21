@@ -1,0 +1,7 @@
+@include font_face('Jost-Light', 'Jost-Light', $font_path, 300);
+@include font_face('Jost-Regular', 'Jost-Regular', $font_path, 400);
+@include font_face('Jost-Medium', 'Jost-Medium', $font_path, 500);
+@include font_face('Jost-SemiBold', 'Jost-SemiBold', $font_path, 600);
+@include font_face('Jost-Bold', 'Jost-Bold', $font_path, 700);
+
+@include font_face('CormorantGaramond-Bold', 'CormorantGaramond-Bold.woff', $font_path, 700);
